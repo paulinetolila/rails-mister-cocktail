@@ -11,7 +11,7 @@
 <%= link_to "Add a dose", new_cocktail_dose_path(@cocktail) %> ||
 <%= link_to "To Cocktails Menu", root_path %> ||
 <%= link_to "Delete Cocktail",
-              cocktail(@cocktail),
+              cocktail_path(@cocktail),
               method: :delete,
               data: { confirm: "Are you sure?" }  %>
 
